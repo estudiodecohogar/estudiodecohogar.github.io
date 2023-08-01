@@ -1,0 +1,181 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+/* importar tipografias desde google fonts */
+@import url('https://fonts.googleapis.com/css2? familia= Dosis:peso@500& display=swap');
+
+@import url('https://fonts.googleapis.com/css2? familia= Old+Standard+TT & display=swap');
+
+/* SECCION HOME */
+
+/* Navbar */
+header {
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    padding-top: 40px;
+}
+
+.nav-bar {
+    background-color: #f4f1ec ;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 20px;
+    padding-left: 30px;
+}
+
+/* estilos para navbar (ul, li, img) */
+ul {
+    display: inline-block;
+    list-style: none;
+}
+
+li {
+    font-family: 'Dosis', sans-serif;
+    text-decoration: none;
+    padding-left: 25px;
+    font-size: 90%;
+    padding-top: 30px;
+}
+
+ul a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: rgb(201, 172, 130);
+    text-decoration-line:underline;
+}
+
+#img-navbar {
+    width: 20%;
+    height: 20%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/* menu desplegable */
+.dropdown {
+    display: inline;
+    position: relative;
+}
+
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    background-color: #f4f1ec;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+}
+
+.dropdown-menu a {
+    display: block;
+    color: #333;
+    text-decoration: none;
+
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.dropdown-menu a:hover {
+    color: rgb(201, 172, 130);
+    text-decoration-line:underline;
+}
+
+/* carousel */
+.slideshow {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+    z-index: 0;
+    margin-top: 0;
+}
+
+  .slideshow img {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    transition: opacity 1s ease-in-out;
+}
+
+/* estilo para la barra separadora home-estudio */
+#division-home {
+    padding: 25px;
+    background-color: rgb(18, 18, 18);
+}
+
+/* SECCION ESTUDIO
+
+/* estilo para contenedor */
+.container-mio {
+    display: flex;
+    justify-content: center;
+    width: 1260px;
+    height: 700px;
+    margin-top: 0%;
+    padding: 0;
+    /* border: 1px solid red; */
+
+}
+
+/* creación contenedor lado izquierdo */
+.izq {
+ width: 50%;
+ /* border: 1px solid blue */
+}
+
+/* estilo img estudio y contacto */
+.img {
+    width: 100%;
+    height: 100%;
+ }
+
+/* creación contenedor lado derecho */
+.der {
+    width: 50%;
+    /* border: 1px solid orangered */
+    overflow-y:auto;  /* propiedad para hacer scroll en el desbordamiento de la todo list */
+
+}
+
+/* creación contenedor texto */
+.box-txt {
+    margin: 10%;
+    width: 80%;
+    height: 80%;
+    /* border: 1px solid orangered   */
+}
+
+/* estilos titulo y parrafos */
+h2 {
+    font-family: 'Old Standard TT', serif;
+    padding-bottom: 25px;
+    padding-top: 80px;
+}
+
+
+p {
+    font-family: 'Dosis', sans-serif;
+    font-size: 90%;
+} 
+
+
+footer {
+    display: flex;
+    padding: 10px;
+    background-color: black;
+    justify-content: center;
+    align-content: center;
+}
+
+footer p {
+    color: #f4f1ec;
+    padding-top: 15px;
+}

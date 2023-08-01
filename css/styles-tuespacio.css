@@ -1,0 +1,77 @@
+/* estilos inputs nombre, email y objetos */
+.input-styles {
+    padding: 5px;
+    width: 49%;
+    border: 2px solid rgb(201, 172, 130);
+    border-radius: 7px;
+    padding-left: 10px;
+    font-family: 'Dosis', sans-serif
+}
+
+/* estilos botones */
+.btn-styles {
+    background-color: #f4f1ec;
+    border-radius: 5px;
+    border: 2px solid rgb(201, 172, 130);
+    padding: 5px 25px;
+    margin-top: 20px;
+    font-family: 'Dosis', sans-serif;
+}
+
+/* hover botones */
+#btn-enviar:hover,#btn-reset:hover,#add-task:hover {
+    background-color: rgb(201, 172, 130);
+}
+
+hr {
+    height: 1px;
+    border-color: rgb(201, 172, 130);  
+}
+
+/* TASK LIST */
+
+/* margen inferior input objetos */
+#task {
+    margin-bottom: 15px;
+}
+
+/* clase para elemento li */
+.task {
+    font-family: 'Dosis', sans-serif;
+    margin-top: -5px;
+    margin-left: -25px;
+    padding: 10px;
+    /* border: 2px solid fuchsia;
+    background-color: aquamarine; */
+    text-align: right;
+}
+
+/* clases para las diferentes acciones */
+.mantener {
+    background-color: rgb(79, 150, 79);
+}
+
+.renovar {
+    background-color: rgb(252, 223, 178);
+}
+
+.eliminar {
+    background-color: rgb(189, 67, 67);
+}
+
+/* estilo para el texto ingresado */
+.task-text {
+    font-family: 'Dosis', sans-serif;
+    margin-right: 20px;  
+}
+
+
+/* estilos para dropdown box */
+select {
+    border-radius: 5px;
+    padding: 5px 5px;
+}
+
+select option{
+    background-color: rgb(255, 255, 255);
+}

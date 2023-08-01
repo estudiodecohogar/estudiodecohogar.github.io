@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deco Hogar</title>
+    <link rel="shortcut icon" href="./img/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="./css/styles-index.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+</head>
+
+<body>
+    <div id="home" class="container-mio">
+        <header>
+            <div>
+                <nav class="nav-bar">
+                    <img src="./img/logotipo.png" alt="logotipo estudio deco hogar" id="img-navbar">
+                    <ul class="nav-bar">
+                        <li><a href="#home">HOME</a></li>
+                        <li><a href="#estudio">ESTUDIO</a></li>
+
+                        <li class="dropdown">
+                            <!-- dropdown-toggle = activar el despliegue y colapsado del menú -->
+                            <a class="dropdown-toggle"  href="./estilos.html">ESTILOS</a> 
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="./estilos.html#e-clasico">Clásico</a>
+                                <a class="dropdown-item" href="./estilos.html#e-industrial">Industrial</a>
+                                <a class="dropdown-item" href="./estilos.html#e-minimalista">Minimalista</a>
+                                <a class="dropdown-item" href="./estilos.html#e-etnico">Étnico</a>
+                            </div>
+                        </li>
+
+                        <li><a href="./contacto.html">CONTACTO</a></li>
+                        <li><a href="./tu-espacio.html">TU ESPACIO</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <div class="slideshow">
+           <img src="./img/car-estilo-industrial.jpg" class="slide" alt="cocina estilo industrial">
+           <img src="./img/car-estilo-minimalista.jpg" class="slide" alt="sala de estar estilo minimalista">
+           <img src="./img/car-estilo-etnico.jpg" class="slide" alt="sala de estar estilo étnico">
+        </div>
+    </div>
+
+    <div id="division-home"></div>
+
+    <section id="estudio">
+        <div class="container-mio">
+            <div class="izq">
+                <img class="img" src="./img/estudio.jpg" alt="">
+            </div>
+
+            <div class="der">
+                <div class="box-txt">
+                    <h2>Conocé más sobre nosotros</h2>
+                    <p>En Deco Hogar nos apasiona transformar espacios y crear ambientes que reflejen la personalidad
+                        y el estilo de nuestros clientes. Somos un equipo de diseñadores creativos y apasionados
+                        que se esfuerzan por superar las expectativas en cada proyecto.</p>
+                    <p>Valoramos la calidad y la atención al detalle en cada aspecto de nuestro trabajo. Nuestro
+                        enfoque se basa en escuchar atentamente tus necesidades y deseos. Creemos en la importancia
+                        de la colaboración y la comunicación continua durante todo el proceso de diseño y así
+                        comprender tus preferencias, tu estilo de vida y tus objetivos, y luego utilizamos nuestra
+                        experiencia
+                        y conocimientos para desarrollar conceptos innovadores y funcionales.</p>
+                    <p>Estamos orgullosos de las relaciones duraderas que hemos construido con nuestros clientes,
+                        ¡esperamos poder hacer lo mismo con vos!</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <footer>
+        <p>Estudio Deco Hogar - Todos los derechos reservados 2023</p>
+    </footer>
+<script src="./js/slides.js"></script>
+</body>
+
+</html>

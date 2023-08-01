@@ -1,0 +1,14 @@
+/* SECCION ESTILOS */
+
+/* margen img sección estilos */
+#estilos img {
+    margin-top: 20px;
+}
+
+/* contenedor inferior sección estilos */
+.container-estilos {
+    display: flex;
+    justify-content: center;
+    width: 1260px;
+    height: 800px;
+}

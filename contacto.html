@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto | Deco Hogar</title>
+    <link rel="shortcut icon" href="./img/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="./css/styles-index.css">
+    <link rel="stylesheet" href="./css/styles-contacto.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+</head>
+
+<body>
+    <header>
+        <div>
+            <nav class="nav-bar">
+                <img src="./img/logotipo.png" alt="logotipo estudio deco hogar" id="img-navbar">
+                <ul class="nav-bar">
+                    <li><a href="./index.html">HOME</a></li>
+                    <li><a href="index.html#estudio">ESTUDIO</a></li>
+
+                    <li class="dropdown">
+                        <!-- dropdown-toggle = activar el despliegue y colapsado del menú -->
+                        <a class="dropdown-toggle" href="./estilos.html">ESTILOS</a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="./estilos.html#e-clasico">Clásico</a>
+                            <a class="dropdown-item" href="./estilos.html#e-industrial">Industrial</a>
+                            <a class="dropdown-item" href="./estilos.html#e-minimalista">Minimalista</a>
+                            <a class="dropdown-item" href="./estilos.html#e-etnico">Étnico</a>
+                        </div>
+                    </li>
+
+                    <li><a href="#contacto">CONTACTO</a></li>
+                    <li><a href="./tu-espacio.html">TU ESPACIO</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section id="contacto">
+        <div class="container-mio">
+            <div class="izq">
+                <img class="img" src="./img/contacto.jpg" alt="">
+            </div>
+
+            <div class="der">
+                <div class="box-txt">
+                    <h2>Contáctanos</h2>
+                    <p>Si estás buscando un estudio de diseño e interiorismo que te brinde un servicio personalizado y
+                        resultados impresionantes, estás en el lugar correcto. Contáctanos hoy mismo para conocer tu
+                        próximo proyecto ¡y comenzá a crear el espacio de tus sueños!</p>
+
+                    <div class="box-form">
+                        <form action="">
+
+                            <label for="nombre"></label>
+                            <input type="text" id="nombre" name="nombre" class="input-styles" placeholder="Ingresa tu nombre" required>
+                            <label for="email"></label>
+                            <input type="email" id="email" name="email" class="input-styles" placeholder="Ingresa tu email" required>
+                            <label for="mensaje"></label>
+                            <textarea type="text" id="mensaje" name="mensaje" placeholder="Dejanos tu mensaje o consulta" required></textarea>
+                            <input type="submit" id="btn-enviar" class="btn-styles" value="Enviar">
+                            <input type="reset" id="btn-reset" class="btn-styles" value="Limpiar">
+
+                        </form>
+                    </div>
+                    <div> <span id="msj-form"></span> </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <footer>
+        <p>Estudio Deco Hogar - Todos los derechos reservados 2023</p>
+    </footer>
+
+    <script type="text/javascript" src="./js/form.js"></script>
+</body>
+
+</html>
